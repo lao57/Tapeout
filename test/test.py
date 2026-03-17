@@ -64,4 +64,3 @@ async def test_project(dut):
     #print out final statement
     fin_out_str = f"{correct} out of 1000 tests have succeeded"
     dut._log.info(fin_out_str)
-
